@@ -215,13 +215,13 @@ body {
             transform: translate3d(0px, 0px, 0);
             filter: blur(20px);
             opacity: 0.7;
-            transition:  0.3s;
+            transition: 0.3s;
             border-radius: inherit;
 
             animation-name: animation1;
-            animation-duration: 400ms;
+            animation-duration: 800ms;
             animation-delay: 120ms;
-            animation-timing-function: linear;
+            animation-timing-function: cubic-bezier(0, 0.97, 1, 0.04);
             animation-iteration-count: infinite;
         }
 
@@ -321,40 +321,80 @@ body {
         background: linear-gradient(0deg, #60efff 0%, #0061ff 100%);
     }
 
+    5% {
+        background: linear-gradient(18deg, #60efff 0%, #0061ff 100%);
+    }
+
     10% {
         background: linear-gradient(36deg, #60efff 0%, #0061ff 100%);
+    }
+
+    15% {
+        background: linear-gradient(54deg, #60efff 0%, #0061ff 100%);
     }
 
     20% {
         background: linear-gradient(72deg, #60efff 0%, #0061ff 100%);
     }
 
+    25% {
+        background: linear-gradient(90deg, #60efff 0%, #0061ff 100%);
+    }
+
     30% {
         background: linear-gradient(108deg, #60efff 0%, #0061ff 100%);
+    }
+
+    35% {
+        background: linear-gradient(126deg, #60efff 0%, #0061ff 100%);
     }
 
     40% {
         background: linear-gradient(144deg, #60efff 0%, #0061ff 100%);
     }
 
+    45% {
+        background: linear-gradient(162deg, #60efff 0%, #0061ff 100%);
+    }
+
     50% {
         background: linear-gradient(180deg, #60efff 0%, #0061ff 100%);
+    }
+
+    55% {
+        background: linear-gradient(198deg, #60efff 0%, #0061ff 100%);
     }
 
     60% {
         background: linear-gradient(216deg, #60efff 0%, #0061ff 100%);
     }
 
+    65% {
+        background: linear-gradient(234deg, #60efff 0%, #0061ff 100%);
+    }
+
     70% {
         background: linear-gradient(252deg, #60efff 0%, #0061ff 100%);
+    }
+
+    75% {
+        background: linear-gradient(270deg, #60efff 0%, #0061ff 100%);
     }
 
     80% {
         background: linear-gradient(288deg, #60efff 0%, #0061ff 100%);
     }
 
+    85% {
+        background: linear-gradient(306deg, #60efff 0%, #0061ff 100%);
+    }
+
     90% {
         background: linear-gradient(324deg, #60efff 0%, #0061ff 100%);
+    }
+
+    95% {
+        background: linear-gradient(342deg, #60efff 0%, #0061ff 100%);
     }
 
     100% {
