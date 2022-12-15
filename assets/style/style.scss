@@ -6,6 +6,7 @@
     // Primary
     --clr-soft-blue: hsl(215, 51%, 70%);
     --clr-cyan: hsl(178, 100%, 50%);
+    --clr-cyan-faded: hsla(178, 100%, 50%, 0.323);
 
     // Neutral
     --clr-very-dark-blue-main-BG: hsl(216, 54%, 11%);
@@ -242,10 +243,25 @@ body {
 }
 
 .nft {
+    position: relative;
+    
 
     img {
         border-radius: 15px;
     }
+
+    &:hover .hover-view {
+        opacity: 100%;
+    }
+}
+
+.hover-view {
+    position: absolute;
+    background: var(--clr-cyan-faded);
+    padding: 7rem;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .content {
@@ -268,20 +284,32 @@ body {
 
 .price-tag {
     color: var(--clr-cyan);
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+
+    &::before {
+        content: "";
+        background-image: url("../image/icon-ethereum.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
 }
 
 .remaining-time {
     color: var(--clr-soft-blue);
     justify-content: center;
     align-items: center;
+    gap: 0.3rem;
 
     &::before {
         content: "";
         background-image: url("../image/icon-clock.svg");
         background-repeat: no-repeat;
-        width: 15px;
+        width: 17px;
         height: 17px;
-        margin-right: 8px;
     }
 }
 
