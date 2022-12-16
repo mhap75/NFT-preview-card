@@ -220,7 +220,7 @@ body {
             border-radius: inherit;
 
             animation-name: animation1;
-            animation-duration: 800ms;
+            animation-duration: 900ms;
             animation-delay: 120ms;
             animation-timing-function: cubic-bezier(0, 0.97, 1, 0.04);
             animation-iteration-count: infinite;
@@ -239,13 +239,13 @@ body {
         }
 
         transform: scale(1.05);
+        
     }
 }
 
 .nft {
     position: relative;
     
-
     img {
         border-radius: 15px;
     }

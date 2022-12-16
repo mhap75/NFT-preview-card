@@ -207,8 +207,8 @@ body {
   border-radius: inherit;
   -webkit-animation-name: animation1;
           animation-name: animation1;
-  -webkit-animation-duration: 800ms;
-          animation-duration: 800ms;
+  -webkit-animation-duration: 900ms;
+          animation-duration: 900ms;
   -webkit-animation-delay: 120ms;
           animation-delay: 120ms;
   -webkit-animation-timing-function: cubic-bezier(0, 0.97, 1, 0.04);
